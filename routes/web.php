@@ -28,3 +28,4 @@ Route::get('/logout', function () {
     return redirect('login');
 });
 Route::get('cartlist',[ProductController::class,'cartList']);
+Route::get('removecart/{id}',[ProductController::class,'removeCart']);
