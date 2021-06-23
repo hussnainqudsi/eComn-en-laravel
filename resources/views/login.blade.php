@@ -5,7 +5,7 @@
         <div class="col-sm-4 offset-lg-4">
             <form action="login" method="POST">
                 <div class="mb-3">
-                @csrf
+                    @csrf
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                     <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
