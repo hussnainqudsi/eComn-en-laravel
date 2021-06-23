@@ -52,9 +52,11 @@
     .search-box{
         width: 500px !important;
     }
-    .headline {
-    z-index: 1000;
-}
+    .cart_list_divider{
+        border-bottom: 1px solid black;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
 </style>
 
 

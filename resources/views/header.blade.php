@@ -22,7 +22,7 @@ if (Session::has('user')) {
       <li class="active"><a href="#">Home</a></li>
       
       <li><a href="#">Orders</a></li>
-      <li><a href="#">Cart({{$total}})</a></li>
+      <li><a href="/cartlist">Cart({{$total}})</a></li>
       @if(Session::has('user')){
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">{{Session::get('user')['name']}}<span class="caret"></span></a>
         <ul class="dropdown-menu">
